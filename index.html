@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="js/jquery-1.12.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+    	<!--网页logo-->
+	 	<div class="logo col-xs-12">
+	 		<img src="img/logo.png"/>
+	 	</div>
+	</div>
+	<div class="container">
+	 	<!--网页导航栏-->
+	 	<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">导航</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="active dropdown">
+		        	 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">学校概况<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">学校校徽</a></li>
+		             <li role="separator" class="divider"></li>
+		            <li><a href="#">学校校旗</a></li>
+		             <li role="separator" class="divider"></li>
+		            <li><a href="#">学校章程</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">组织机构</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">历任领导</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">现任领导</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">学校简介</a></li>
+		          </ul>	
+		        </li>
+		        <li><a href="#">院系设置</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">党建工作<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">党的群众路线</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">我的中国梦</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">创新争优</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">科学发展观</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">重点建设<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">一流大学建设</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">学院专科介绍</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">人力资源<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">人力综合管理系统</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">人才招聘</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">师资队伍</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">教育教学<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">继续教育</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">留学生教育</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">国防生教育</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">研究生培养</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">本科生培养</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">审核评估</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">科学研究<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">学术期刊</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">大型科学仪器</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">科研调查船</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">博士后科研流动站</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">蓝色经济</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">海色海洋与技术青岛协会</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">人文社会科学研究基地</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">自然科学科研基地</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">中央财政科研项目资金</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">招生就业<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">就业信息</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">继续教育招生</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">留学生招生</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">研究生招生</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">本科生招生</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">合作交流<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">国际教育交流</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">国际合作</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">图书档案<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">图书馆</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">档案馆</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">期刊馆</a></li>
+		          </ul>
+		        </li>
+		        <li><a href="#">信息公开</a></li>
+		        <li><a href="#">科技政策</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+
+		<!--网页图片滚动-->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+		
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img style="width: 100%;" src="img/1.jpg" alt="...">
+		    </div>
+		    <div class="item">
+		      <img style="width: 100%;" src="img/2.jpg" alt="...">
+		    </div>
+		  </div>
+		
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+		<script type="text/javascript">
+			$('.carousel').carousel()
+		</script>
+		
+		<!--网页文章列表-->
+		<div class="col-md-4 col-xs-12 list">
+			<h3><a href="">海大新闻</a></h3>
+			<ul>
+				<li><a href=""><span>.</span>一堂生动的思政课：鞠传进书记为海大学子讲解文化自信</a></li>
+				<li><a href=""><span>.</span>毕生情•海大梦 中国海洋大学举行2018届毕业晚会</a></li>
+				<li><a href=""><span>.</span>何梁何利基金高峰论坛暨图片展在中国海洋大学举行</a></li>
+				<li><a href=""><span>.</span>中国海洋大学与国家海洋局第三海洋研究所签署合作框架协议</a></li>
+				<li><a href=""><span>.</span>中国海大2018届赴基层和西部地区就业毕业生表彰会举行</a></li>
+				<li><a href=""><span>.</span>中国海大和美国普林斯顿大学共同主办国际儿童文学论坛</a></li>
+				<li><a href=""><span>.</span>“图们江出海通道问题”学术研讨会在中国海洋大学召开</a></li>
+				<li><a href=""><span>.</span>中国海洋大学与国家海洋局第三海洋研究所签署合作框架协议</a></li>
+			</ul>
+			<a href="" style="color: #000;font-size: 12px;width: 95%;text-align: right;display: block;">更多</a>
+		</div>
+		<div class="col-md-6 col-xs-12 list">
+			<h3 class="list2"><a href="javascript:;" class="on">海大公告</a>&nbsp;&nbsp;<a href="javascript:;">学术活动</a></h3>
+			<ul>
+				<li><a href=""><span>.</span>关于举办2018届学生毕业典礼的通知</a></li>
+				<li><a href=""><span>.</span>关于组织2018年“千人计划”有关项目申报工作的通知</a></li>
+				<li><a href=""><span>.</span>中国海洋大学诚邀海外优秀人才申报2018年"青年千人计划"</a></li>
+				<li><a href=""><span>.</span>公示</a></li>
+				<li><a href=""><span>.</span>公示</a></li>
+				<li><a href=""><span>.</span>公示</a></li>
+				<li><a href=""><span>.</span>公示</a></li>
+				<li><a href=""><span>.</span>中国海洋大学与国家海洋局第三海洋研究所签署合作框架协议</a></li>
+			</ul>
+			<ul style="display: none;">
+				<li><a href=""><span>.</span>公示</a></li>
+				<li><a href=""><span>.</span>公示</a></li>
+				<li><a href=""><span>.</span>何梁何利基金高峰论坛暨图片展在中国海洋大学举行</a></li>
+				<li><a href=""><span>.</span>公示</a></li>
+				<li><a href=""><span>.</span>中国海洋大学与国家海洋局第三海洋研究所签署合作框架协议</a></li>
+				<li><a href=""><span>.</span>公示</a></li>
+				<li><a href=""><span>.</span>公示</a></li>
+				<li><a href=""><span>.</span>公示</a></li>
+			</ul>
+			<a href="" style="color: #000;font-size: 12px;width: 95%;text-align: right;display: block;">更多</a>
+		</div>
+		<div class="col-md-2 imglist col-xs-12">
+			<img src="img/1.png"/>
+			<img src="img/2.png"/>
+			<img src="img/3.png"/>
+			<img src="img/4.png"/>
+			<img src="img/5.png"/>
+			<img src="img/6.png"/>
+			<img src="img/7.png"/>
+		</div>
+		
+	</div>
+	<div class="container">
+		<div class="bottom">
+			<!--网页底部-->
+			<div class="col-md-4 col-xs-12 img">
+				<img src="img/01.png"/>
+				<img src="img/02.png"/>
+				<img src="img/03.png"/>
+				<img src="img/04.png"/>
+				<img src="img/05.png"/>
+			</div>
+			<div class="col-md-4 col-xs-12 col-md-offset-4 sear">
+				<form class="navbar-form navbar-left">
+			        <div class="form-group col-xs-10">
+			          <input type="text" class="form-control" placeholder="Search">
+			        </div>
+			        <button type="button" class="btn btn-default col-xs-2" aria-label="Left Align">
+					  <span class="glyphicon glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+			      </form>
+			</div>
+		</div>
+		<div class="col-md-12 aaa col-xs-12">
+			<a href="">海洋大学堂</a> | 
+			<a href="">数字后勤服务大厅</a> |
+			<a href="">海之子</a> |
+			<a href="">招标公告</a> |
+			<a href="">教育基金会</a> |
+			<a href="">校友会</a> |
+			<a href="">迎新网</a> |
+			<a href="">心理咨询</a> |
+			<a href="">海大附中</a> |
+			<a href="">中国海洋发展研究中心</a>
+			<p class="col-md-12 col-xs-12">中国海洋大学</p>
+		</div>
+	</div>
+		<script type="text/javascript">
+			$('.list2 a').click(function(){
+				$(this).addClass('on').siblings('a').removeClass('on');
+				$(this).parents('.list').find('ul').hide();
+				$(this).parents('.list').find('ul').eq($(this).index()).show();
+			});
+		</script>
+  </body>
+</html>

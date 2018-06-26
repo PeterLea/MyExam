@@ -1,0 +1,74 @@
+body{background: url(../img/bg0.jpg) repeat-x;}
+.logo{padding: 15px 0;}
+.nav>li>a{padding:15px 11px 15px 11px;}
+.carousel-control.right{background-image: none;}
+.carousel-control.left{background-image:none ;}
+.navbar{margin-bottom: 5px;}
+.imglist{padding: 20px 0 0 0;}
+.list{padding: 1px 0 0 0;}
+.list h3{
+    height: 34px;
+    line-height: 34px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+    border-bottom: 1px solid #b6e5ff;
+    width: 95%;
+}
+.list h3 a{color: #063477;}
+.list li a{ color: #000;}
+.list ul{padding: 0;margin: 0;}
+.list li{    list-style: none;
+    position: relative;
+    padding: 0 0 3px 12px;
+    font-size: 13px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;}
+.list li a span{
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    top: -15px;
+}
+.list .list2 a{color: #555;}
+.list .list2 a.on{color: #063477;}
+.bottom{
+    padding: 12px 0 0 0;
+    font-size: 12px;
+}
+.bottom .img{
+    margin: 12px 0 0 0;
+}
+.aaa a{
+    color: #fff;
+    padding-right: 3px;
+    padding-left: 3px;
+    }
+.aaa{text-align: center;padding: 10px 0 5px 0;background: #063477;color: #fff;margin: 20px 0 0 0;line-height: 24px;}
+.aaa p{
+    border-top: 1px solid #fff;
+    margin: 10px 0 0 0;
+    padding: 5px 0 0 0;
+}
+.navbar{background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f2dd5d), to(#93730c));}
+.navbar-default .navbar-nav>li>a{color: #000;}
+.navbar-default .navbar-brand{color: #000;}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{color: #fff;background-color: transparent;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{color: #fff;background-color: transparent;}
+.dropdown-menu,.dropdown-menu>li>a:hover{background-color: #89b5db;}
+.dropdown-menu>li>a{color: #fff;}
+@media (max-width: 920px) {
+    .navbar-default {
+	    background: #f8f8f8;
+	    border-color: #e7e7e7;
+	}
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #e7e7e7;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color: #e7e7e7;
+}
+}
